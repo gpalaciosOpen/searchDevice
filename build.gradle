@@ -1,10 +1,13 @@
+plugins {
+    id 'com.android.library'
+}
 
-apply 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 repositories {
     maven { url 'https://jitpack.io' }
 }
+
 
 group='com.github.gpalaciosOpen'
 
@@ -21,7 +24,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
-
 
 
 
